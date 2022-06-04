@@ -5,9 +5,9 @@
 
 **A Link To Offical MDL** [**Help & Support Thread**](https://forums.mydigitallife.net/threads/84450/)
 
-[<img src="https://raw.githubusercontent.com/DarkDinosaurEx/Office-R-Tool/main/Welcome.png" width="70%">](https://forums.mydigitallife.net/threads/office-r-tool-continued.84450/)
+[<img src="https://raw.githubusercontent.com/DarkDinosaurEx/OfficeRTool/main/Welcome.png" width="70%">](https://forums.mydigitallife.net/threads/office-r-tool-continued.84450/)
 
-[<img src="https://raw.githubusercontent.com/DarkDinosaurEx/Office-R-Tool/main/Logo.png" width="85%">](https://forums.mydigitallife.net/threads/office-r-tool-continued.84450/)
+[<img src="https://raw.githubusercontent.com/DarkDinosaurEx/OfficeRTool/main/Logo.png" width="85%">](https://forums.mydigitallife.net/threads/office-r-tool-continued.84450/)
 
 # How to get latest release
 **Copy / Paste to PS Console.**
