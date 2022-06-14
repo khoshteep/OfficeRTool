@@ -10,7 +10,7 @@
 [<img src="https://raw.githubusercontent.com/DarkDinosaurEx/OfficeRTool/main/Logo.png" width="85%">](https://forums.mydigitallife.net/threads/office-r-tool-continued.84450/)
 
 # How to get latest release
-**Copy / Paste to PS Console.**
+**Copy / Paste to P/S Console [based on Xiang ZHU script]**
 
 **Password for Rar file is "MDL2022"**
 
