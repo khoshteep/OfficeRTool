@@ -10,10 +10,13 @@
 [<img src="https://raw.githubusercontent.com/DarkDinosaurEx/OfficeRTool/main/Logo.png" width="85%">](https://forums.mydigitallife.net/threads/office-r-tool-continued.84450/)
 
 # How to get latest release
-**Copy / Paste to P/S Console [based on Xiang ZHU script]**
+**- Copy / Paste to PS Console.**
 
-**Password for Rar file is "MDL2022"**
-
+**- Password for Rar file is "MDL2022"**
+````
+        <# v1.0 based on Xiang ZHU script #>
+        <# v1.1 Update by Aonodensetsu #>
+        
         $url = 'https://github.com/DarkDinosaurEx/ZixSx/releases/latest'
         $request = [System.Net.WebRequest]::Create($url)
         $response = $request.GetResponse()
@@ -27,6 +30,7 @@
         Invoke-WebRequest -Uri $realDownloadUrl -OutFile $OutputFile
         [Environment]::Exit(1)
         [Environment]::Exit(1)
+````
 
 # Latest Changes
 ## Core function changes
